@@ -1,0 +1,172 @@
+.latest-match-container {
+  margin-top: 24px;
+}
+
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  display: block;
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.latest-team-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-team-logo-container {
+    width: 65%;
+    padding-left: 32px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .latest-team-logo-container {
+    width: 60%;
+  }
+}
+
+.latest-match-details-1 {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-1 {
+    width: 48%;
+    align-self: flex-start;
+  }
+}
+
+.team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 36px;
+  }
+}
+
+.team-date {
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-date {
+    font-size: 24px;
+  }
+}
+
+.team-place {
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-place {
+    font-size: 16px;
+  }
+}
+
+.team-result {
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-result {
+    font-size: 16px;
+  }
+}
+
+.opponent-team-logo {
+  max-height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .opponent-team-logo {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+.separator {
+  border: 1px solid #475569;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+.latest-match-details-two {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-two {
+    text-align: right;
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 32px;
+  }
+}
+
+.ipl-team-match-details-label {
+  font-family: Bree Serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .ipl-team-match-details-label {
+    font-size: 18px;
+  }
+}
+
+.ipl-team-match-details-value {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .ipl-team-match-details-value {
+    font-size: 14px;
+  }
+}
